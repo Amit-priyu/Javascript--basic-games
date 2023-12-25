@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1{
+    background-color: #081b31;
+    color:white;
+    height: 5rem;
+    line-height: 5rem;
+}
+/* jaise hi ham hover kare waise hi opacity ko half kar do... */
+.choice:hover{
+    /* opacity: 0.5; */
+    cursor: pointer;
+    background-color: #081b31;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4 rem;
+    margin-top: 6rem;
+}
+.choice{
+   height: 170px;
+   width: 170px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+img{width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 4rem;
+    gap: 6rem;
+}
+#user-score,#comp-score{
+    font-size: 5rem;
+}
+.msg-container{
+    margin-top: 5rem;
+}
+#msg{
+    /* margin-top: 5rem; */
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    display: inline;
+}
